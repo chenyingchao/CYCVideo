@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "TabBarViewController.h"
+#import "HomeViewController.h"
+#import "MineViewController.h"
+#import "EditorViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +20,24 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+   
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    UITabBarController *tabBarVC = [[UITabBarController alloc] init];
+    
+    HomeViewController *homeVC = [[HomeViewController alloc] init];
+    homeVC.tabBarItem.title = @"首页";
+    [tabBarVC addChildViewController:homeVC];
+    
+    EditorViewController *editorVC = [[EditorViewController alloc] init];
+    editorVC.tabBarItem.title = @"编辑";
+    [tabBarVC addChildViewController:editorVC];
+    
+    MineViewController *mineVC = [[MineViewController alloc] init];
+    mineVC.tabBarItem.title = @"首页";
+    [tabBarVC addChildViewController:mineVC];
+    
+    self.window.rootViewController = tabBarVC;
     return YES;
 }
 

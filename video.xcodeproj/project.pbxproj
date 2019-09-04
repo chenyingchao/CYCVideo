@@ -20,6 +20,11 @@
 		24C05012231E140200CB3E55 /* 123.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 24C05011231E140200CB3E55 /* 123.MP4 */; };
 		24C136B3230D3FDD00B21308 /* 456.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 24C136B2230D3FDD00B21308 /* 456.MP4 */; };
 		24C136B5230D409E00B21308 /* image.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 24C136B4230D409D00B21308 /* image.JPG */; };
+		24DE5922231FCE3B00616A34 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE5921231FCE3B00616A34 /* TabBarViewController.m */; };
+		24DE5925231FCEAC00616A34 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE5924231FCEAC00616A34 /* BaseViewController.m */; };
+		24DE592B231FCEE600616A34 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE592A231FCEE600616A34 /* HomeViewController.m */; };
+		24DE592E231FCEF200616A34 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE592D231FCEF200616A34 /* MineViewController.m */; };
+		24DE5931231FCF0000616A34 /* EditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE5930231FCF0000616A34 /* EditorViewController.m */; };
 		24ED489D2302B634001A66E5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24ED489C2302B634001A66E5 /* CoreMedia.framework */; };
 		24ED489F2302B63C001A66E5 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24ED489E2302B63C001A66E5 /* CoreVideo.framework */; };
 		24ED48A12302B646001A66E5 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24ED48A02302B646001A66E5 /* OpenGLES.framework */; };
@@ -70,6 +75,16 @@
 		24C05011231E140200CB3E55 /* 123.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 123.MP4; sourceTree = "<group>"; };
 		24C136B2230D3FDD00B21308 /* 456.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 456.MP4; sourceTree = "<group>"; };
 		24C136B4230D409D00B21308 /* image.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.JPG; sourceTree = "<group>"; };
+		24DE5920231FCE3B00616A34 /* TabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		24DE5921231FCE3B00616A34 /* TabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		24DE5923231FCEAC00616A34 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		24DE5924231FCEAC00616A34 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		24DE5929231FCEE600616A34 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		24DE592A231FCEE600616A34 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		24DE592C231FCEF200616A34 /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		24DE592D231FCEF200616A34 /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		24DE592F231FCF0000616A34 /* EditorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditorViewController.h; sourceTree = "<group>"; };
+		24DE5930231FCF0000616A34 /* EditorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditorViewController.m; sourceTree = "<group>"; };
 		24ED489C2302B634001A66E5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		24ED489E2302B63C001A66E5 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		24ED48A02302B646001A66E5 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -159,11 +174,11 @@
 		24B87E9A22FADFA0008AE95E /* video */ = {
 			isa = PBXGroup;
 			children = (
-				2477ED3C23152F1D00E9E1DC /* element.png */,
-				24685A262303BE5500C910CD /* timg.jpeg */,
-				24C136B2230D3FDD00B21308 /* 456.MP4 */,
-				24C05011231E140200CB3E55 /* 123.MP4 */,
-				24C136B4230D409D00B21308 /* image.JPG */,
+				24DE5932231FD05200616A34 /* Test */,
+				24DE5928231FCED000616A34 /* Editor */,
+				24DE5927231FCEC800616A34 /* Mine */,
+				24DE5926231FCEBC00616A34 /* Home */,
+				24DE591F231FCD1500616A34 /* Base */,
 				24B87E9B22FADFA0008AE95E /* AppDelegate.h */,
 				24B87E9C22FADFA0008AE95E /* AppDelegate.m */,
 				24B87E9E22FADFA0008AE95E /* ViewController.h */,
@@ -193,6 +208,56 @@
 				24B87EC122FADFA4008AE95E /* Info.plist */,
 			);
 			path = videoUITests;
+			sourceTree = "<group>";
+		};
+		24DE591F231FCD1500616A34 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				24DE5920231FCE3B00616A34 /* TabBarViewController.h */,
+				24DE5921231FCE3B00616A34 /* TabBarViewController.m */,
+				24DE5923231FCEAC00616A34 /* BaseViewController.h */,
+				24DE5924231FCEAC00616A34 /* BaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		24DE5926231FCEBC00616A34 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				24DE5929231FCEE600616A34 /* HomeViewController.h */,
+				24DE592A231FCEE600616A34 /* HomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		24DE5927231FCEC800616A34 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				24DE592C231FCEF200616A34 /* MineViewController.h */,
+				24DE592D231FCEF200616A34 /* MineViewController.m */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		24DE5928231FCED000616A34 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				24DE592F231FCF0000616A34 /* EditorViewController.h */,
+				24DE5930231FCF0000616A34 /* EditorViewController.m */,
+			);
+			path = Editor;
+			sourceTree = "<group>";
+		};
+		24DE5932231FD05200616A34 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				2477ED3C23152F1D00E9E1DC /* element.png */,
+				24685A262303BE5500C910CD /* timg.jpeg */,
+				24C136B2230D3FDD00B21308 /* 456.MP4 */,
+				24C05011231E140200CB3E55 /* 123.MP4 */,
+				24C136B4230D409D00B21308 /* image.JPG */,
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 		84A87FA69F8BFAA0F6C5096C /* Frameworks */ = {
@@ -449,9 +514,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24DE5922231FCE3B00616A34 /* TabBarViewController.m in Sources */,
+				24DE592E231FCEF200616A34 /* MineViewController.m in Sources */,
+				24DE5925231FCEAC00616A34 /* BaseViewController.m in Sources */,
 				24B87EA022FADFA0008AE95E /* ViewController.m in Sources */,
 				24B87EAB22FADFA3008AE95E /* main.m in Sources */,
 				24B87E9D22FADFA0008AE95E /* AppDelegate.m in Sources */,
+				24DE592B231FCEE600616A34 /* HomeViewController.m in Sources */,
+				24DE5931231FCF0000616A34 /* EditorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

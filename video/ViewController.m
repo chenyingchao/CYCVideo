@@ -23,6 +23,12 @@ typedef void (^HandleVideoCompletion) (AVAsset *videoAsset, NSError *error);
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
+    
+    
+    return;
+    
+    
     NSString *videoURL = [[NSBundle mainBundle] pathForResource:@"123" ofType:@"MP4"];
     AVAsset *asset1 = [AVAsset assetWithURL:[NSURL fileURLWithPath:videoURL]];
     
