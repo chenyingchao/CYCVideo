@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24685A272303BE5500C910CD /* timg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 24685A262303BE5500C910CD /* timg.jpeg */; };
+		2477ED3D23152F1D00E9E1DC /* element.png in Resources */ = {isa = PBXBuildFile; fileRef = 2477ED3C23152F1D00E9E1DC /* element.png */; };
 		24B87E9D22FADFA0008AE95E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B87E9C22FADFA0008AE95E /* AppDelegate.m */; };
 		24B87EA022FADFA0008AE95E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B87E9F22FADFA0008AE95E /* ViewController.m */; };
 		24B87EA322FADFA0008AE95E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24B87EA122FADFA0008AE95E /* Main.storyboard */; };
@@ -15,6 +17,18 @@
 		24B87EAB22FADFA3008AE95E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B87EAA22FADFA3008AE95E /* main.m */; };
 		24B87EB522FADFA3008AE95E /* videoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B87EB422FADFA3008AE95E /* videoTests.m */; };
 		24B87EC022FADFA4008AE95E /* videoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B87EBF22FADFA4008AE95E /* videoUITests.m */; };
+		24C05012231E140200CB3E55 /* 123.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 24C05011231E140200CB3E55 /* 123.MP4 */; };
+		24C136B3230D3FDD00B21308 /* 456.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 24C136B2230D3FDD00B21308 /* 456.MP4 */; };
+		24C136B5230D409E00B21308 /* image.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 24C136B4230D409D00B21308 /* image.JPG */; };
+		24ED489D2302B634001A66E5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24ED489C2302B634001A66E5 /* CoreMedia.framework */; };
+		24ED489F2302B63C001A66E5 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24ED489E2302B63C001A66E5 /* CoreVideo.framework */; };
+		24ED48A12302B646001A66E5 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24ED48A02302B646001A66E5 /* OpenGLES.framework */; };
+		24ED48A32302B64F001A66E5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24ED48A22302B64F001A66E5 /* AVFoundation.framework */; };
+		24ED48A52302B656001A66E5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24ED48A42302B656001A66E5 /* QuartzCore.framework */; };
+		24ED48A72302BB4B001A66E5 /* libGPUImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24ED48A62302BB4B001A66E5 /* libGPUImage.a */; };
+		3CB18DCCE61BF62542C65C61 /* libPods-video.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28C99FDBB187E39B887CE55E /* libPods-video.a */; };
+		64A810FFEED747D53E467C96 /* libPods-videoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD01FB9066850002BF8701E /* libPods-videoUITests.a */; };
+		BE2100B95F4D08EB2C484B00 /* libPods-videoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E74FB0093C53C3C91956E47C /* libPods-videoTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24685A262303BE5500C910CD /* timg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg.jpeg; sourceTree = "<group>"; };
+		2477ED3C23152F1D00E9E1DC /* element.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = element.png; sourceTree = "<group>"; };
 		24B87E9822FADFA0008AE95E /* video.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = video.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24B87E9B22FADFA0008AE95E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		24B87E9C22FADFA0008AE95E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +67,24 @@
 		24B87EBB22FADFA4008AE95E /* videoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = videoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24B87EBF22FADFA4008AE95E /* videoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = videoUITests.m; sourceTree = "<group>"; };
 		24B87EC122FADFA4008AE95E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24C05011231E140200CB3E55 /* 123.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 123.MP4; sourceTree = "<group>"; };
+		24C136B2230D3FDD00B21308 /* 456.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 456.MP4; sourceTree = "<group>"; };
+		24C136B4230D409D00B21308 /* image.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.JPG; sourceTree = "<group>"; };
+		24ED489C2302B634001A66E5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		24ED489E2302B63C001A66E5 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		24ED48A02302B646001A66E5 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		24ED48A22302B64F001A66E5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		24ED48A42302B656001A66E5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		24ED48A62302BB4B001A66E5 /* libGPUImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libGPUImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2824E69594B4D180C5FD0E1F /* Pods-videoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-videoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-videoTests/Pods-videoTests.release.xcconfig"; sourceTree = "<group>"; };
+		28C99FDBB187E39B887CE55E /* libPods-video.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-video.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3753F144EE84DD9BB9113639 /* Pods-video.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-video.debug.xcconfig"; path = "Pods/Target Support Files/Pods-video/Pods-video.debug.xcconfig"; sourceTree = "<group>"; };
+		3AD01FB9066850002BF8701E /* libPods-videoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-videoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C5052EFAC1C88576E7192DD /* Pods-videoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-videoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-videoUITests/Pods-videoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C0F16EA8D21AD657DF0EC08B /* Pods-videoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-videoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-videoUITests/Pods-videoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC48C6869EBEBC9CB0846E1C /* Pods-videoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-videoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-videoTests/Pods-videoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D634189B97E6484327C6CB82 /* Pods-video.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-video.release.xcconfig"; path = "Pods/Target Support Files/Pods-video/Pods-video.release.xcconfig"; sourceTree = "<group>"; };
+		E74FB0093C53C3C91956E47C /* libPods-videoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-videoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +92,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24ED48A72302BB4B001A66E5 /* libGPUImage.a in Frameworks */,
+				24ED48A52302B656001A66E5 /* QuartzCore.framework in Frameworks */,
+				24ED48A32302B64F001A66E5 /* AVFoundation.framework in Frameworks */,
+				24ED48A12302B646001A66E5 /* OpenGLES.framework in Frameworks */,
+				24ED489F2302B63C001A66E5 /* CoreVideo.framework in Frameworks */,
+				24ED489D2302B634001A66E5 /* CoreMedia.framework in Frameworks */,
+				3CB18DCCE61BF62542C65C61 /* libPods-video.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE2100B95F4D08EB2C484B00 /* libPods-videoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +114,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64A810FFEED747D53E467C96 /* libPods-videoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B5EA3EBB97D938FF3E8E0FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3753F144EE84DD9BB9113639 /* Pods-video.debug.xcconfig */,
+				D634189B97E6484327C6CB82 /* Pods-video.release.xcconfig */,
+				CC48C6869EBEBC9CB0846E1C /* Pods-videoTests.debug.xcconfig */,
+				2824E69594B4D180C5FD0E1F /* Pods-videoTests.release.xcconfig */,
+				C0F16EA8D21AD657DF0EC08B /* Pods-videoUITests.debug.xcconfig */,
+				9C5052EFAC1C88576E7192DD /* Pods-videoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		24B87E8F22FADFA0008AE95E = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +141,8 @@
 				24B87EB322FADFA3008AE95E /* videoTests */,
 				24B87EBE22FADFA4008AE95E /* videoUITests */,
 				24B87E9922FADFA0008AE95E /* Products */,
+				1B5EA3EBB97D938FF3E8E0FC /* Pods */,
+				84A87FA69F8BFAA0F6C5096C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +159,11 @@
 		24B87E9A22FADFA0008AE95E /* video */ = {
 			isa = PBXGroup;
 			children = (
+				2477ED3C23152F1D00E9E1DC /* element.png */,
+				24685A262303BE5500C910CD /* timg.jpeg */,
+				24C136B2230D3FDD00B21308 /* 456.MP4 */,
+				24C05011231E140200CB3E55 /* 123.MP4 */,
+				24C136B4230D409D00B21308 /* image.JPG */,
 				24B87E9B22FADFA0008AE95E /* AppDelegate.h */,
 				24B87E9C22FADFA0008AE95E /* AppDelegate.m */,
 				24B87E9E22FADFA0008AE95E /* ViewController.h */,
@@ -132,6 +195,22 @@
 			path = videoUITests;
 			sourceTree = "<group>";
 		};
+		84A87FA69F8BFAA0F6C5096C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24ED48A62302BB4B001A66E5 /* libGPUImage.a */,
+				24ED48A42302B656001A66E5 /* QuartzCore.framework */,
+				24ED48A22302B64F001A66E5 /* AVFoundation.framework */,
+				24ED48A02302B646001A66E5 /* OpenGLES.framework */,
+				24ED489E2302B63C001A66E5 /* CoreVideo.framework */,
+				24ED489C2302B634001A66E5 /* CoreMedia.framework */,
+				28C99FDBB187E39B887CE55E /* libPods-video.a */,
+				E74FB0093C53C3C91956E47C /* libPods-videoTests.a */,
+				3AD01FB9066850002BF8701E /* libPods-videoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24B87EC422FADFA4008AE95E /* Build configuration list for PBXNativeTarget "video" */;
 			buildPhases = (
+				BEE332C3FAF3D4771629438A /* [CP] Check Pods Manifest.lock */,
 				24B87E9422FADFA0008AE95E /* Sources */,
 				24B87E9522FADFA0008AE95E /* Frameworks */,
 				24B87E9622FADFA0008AE95E /* Resources */,
+				39C33ACC34B7DC69A828BC5B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,6 +237,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24B87EC722FADFA4008AE95E /* Build configuration list for PBXNativeTarget "videoTests" */;
 			buildPhases = (
+				60F879B45C7EF5A7616C0FC2 /* [CP] Check Pods Manifest.lock */,
 				24B87EAC22FADFA3008AE95E /* Sources */,
 				24B87EAD22FADFA3008AE95E /* Frameworks */,
 				24B87EAE22FADFA3008AE95E /* Resources */,
@@ -174,6 +256,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24B87ECA22FADFA4008AE95E /* Build configuration list for PBXNativeTarget "videoUITests" */;
 			buildPhases = (
+				830799CB871C5F644B96293F /* [CP] Check Pods Manifest.lock */,
 				24B87EB722FADFA4008AE95E /* Sources */,
 				24B87EB822FADFA4008AE95E /* Frameworks */,
 				24B87EB922FADFA4008AE95E /* Resources */,
@@ -235,9 +318,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2477ED3D23152F1D00E9E1DC /* element.png in Resources */,
 				24B87EA822FADFA3008AE95E /* LaunchScreen.storyboard in Resources */,
 				24B87EA522FADFA3008AE95E /* Assets.xcassets in Resources */,
+				24685A272303BE5500C910CD /* timg.jpeg in Resources */,
 				24B87EA322FADFA0008AE95E /* Main.storyboard in Resources */,
+				24C05012231E140200CB3E55 /* 123.MP4 in Resources */,
+				24C136B3230D3FDD00B21308 /* 456.MP4 in Resources */,
+				24C136B5230D409E00B21308 /* image.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +344,105 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39C33ACC34B7DC69A828BC5B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-video/Pods-video-resources.sh",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_amatorka.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_miss_etikate.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_1.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_2.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_amatorka.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_miss_etikate.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_1.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_2.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-video/Pods-video-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60F879B45C7EF5A7616C0FC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-videoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		830799CB871C5F644B96293F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-videoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEE332C3FAF3D4771629438A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-video-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		24B87E9422FADFA0008AE95E /* Sources */ = {
@@ -433,11 +620,13 @@
 		};
 		24B87EC522FADFA4008AE95E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3753F144EE84DD9BB9113639 /* Pods-video.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BGH7S67FXX;
+				DEVELOPMENT_TEAM = 7673YM3ADH;
 				INFOPLIST_FILE = video/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,11 +639,13 @@
 		};
 		24B87EC622FADFA4008AE95E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D634189B97E6484327C6CB82 /* Pods-video.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BGH7S67FXX;
+				DEVELOPMENT_TEAM = 7673YM3ADH;
 				INFOPLIST_FILE = video/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -467,6 +658,7 @@
 		};
 		24B87EC822FADFA4008AE95E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC48C6869EBEBC9CB0846E1C /* Pods-videoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +678,7 @@
 		};
 		24B87EC922FADFA4008AE95E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2824E69594B4D180C5FD0E1F /* Pods-videoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -505,6 +698,7 @@
 		};
 		24B87ECB22FADFA4008AE95E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0F16EA8D21AD657DF0EC08B /* Pods-videoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BGH7S67FXX;
@@ -523,6 +717,7 @@
 		};
 		24B87ECC22FADFA4008AE95E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C5052EFAC1C88576E7192DD /* Pods-videoUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BGH7S67FXX;
