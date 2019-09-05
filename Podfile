@@ -2,11 +2,11 @@
 # platform :ios, '9.0'
 
 target 'video' do
-  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
-  # use_frameworks!
-
-  # Pods for video
-   pod 'GPUImage', '~> 0.1.7'
+  
+    pod 'Masonry','1.1.0'
+    pod 'SVProgressHUD', '~> 2.2.5'
+    pod 'SDWebImage', '~> 5.0.6'
+    pod 'GPUImage', '~> 0.1.7'
 
   target 'videoTests' do
     inherit! :search_paths

@@ -20,6 +20,13 @@
 		24C05012231E140200CB3E55 /* 123.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 24C05011231E140200CB3E55 /* 123.MP4 */; };
 		24C136B3230D3FDD00B21308 /* 456.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 24C136B2230D3FDD00B21308 /* 456.MP4 */; };
 		24C136B5230D409E00B21308 /* image.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 24C136B4230D409D00B21308 /* image.JPG */; };
+		24DDF4572320B53900F76552 /* VideoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DDF4562320B53900F76552 /* VideoManager.m */; };
+		24DDF4592320B90800F76552 /* bgDef.png in Resources */ = {isa = PBXBuildFile; fileRef = 24DDF4582320B90800F76552 /* bgDef.png */; };
+		24DDF45D2320BF7100F76552 /* UIView+HPBorderLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DDF45C2320BF7100F76552 /* UIView+HPBorderLine.m */; };
+		24DDF4612320C0C300F76552 /* BackgroundElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DDF4602320C0C300F76552 /* BackgroundElement.m */; };
+		24DDF4642320C10600F76552 /* BaseElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DDF4632320C10600F76552 /* BaseElement.m */; };
+		24DDF4692320C63900F76552 /* EditorTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DDF4682320C63900F76552 /* EditorTool.m */; };
+		24DDF46C2320EE4700F76552 /* TitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DDF46B2320EE4700F76552 /* TitleCell.m */; };
 		24DE5922231FCE3B00616A34 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE5921231FCE3B00616A34 /* TabBarViewController.m */; };
 		24DE5925231FCEAC00616A34 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE5924231FCEAC00616A34 /* BaseViewController.m */; };
 		24DE592B231FCEE600616A34 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE592A231FCEE600616A34 /* HomeViewController.m */; };
@@ -75,6 +82,20 @@
 		24C05011231E140200CB3E55 /* 123.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 123.MP4; sourceTree = "<group>"; };
 		24C136B2230D3FDD00B21308 /* 456.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 456.MP4; sourceTree = "<group>"; };
 		24C136B4230D409D00B21308 /* image.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.JPG; sourceTree = "<group>"; };
+		24DDF4552320B53900F76552 /* VideoManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoManager.h; sourceTree = "<group>"; };
+		24DDF4562320B53900F76552 /* VideoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoManager.m; sourceTree = "<group>"; };
+		24DDF4582320B90800F76552 /* bgDef.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgDef.png; sourceTree = "<group>"; };
+		24DDF45B2320BF7100F76552 /* UIView+HPBorderLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HPBorderLine.h"; sourceTree = "<group>"; };
+		24DDF45C2320BF7100F76552 /* UIView+HPBorderLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HPBorderLine.m"; sourceTree = "<group>"; };
+		24DDF45F2320C0C300F76552 /* BackgroundElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackgroundElement.h; sourceTree = "<group>"; };
+		24DDF4602320C0C300F76552 /* BackgroundElement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackgroundElement.m; sourceTree = "<group>"; };
+		24DDF4622320C10600F76552 /* BaseElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseElement.h; sourceTree = "<group>"; };
+		24DDF4632320C10600F76552 /* BaseElement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseElement.m; sourceTree = "<group>"; };
+		24DDF4652320C2AC00F76552 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		24DDF4672320C63900F76552 /* EditorTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditorTool.h; sourceTree = "<group>"; };
+		24DDF4682320C63900F76552 /* EditorTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditorTool.m; sourceTree = "<group>"; };
+		24DDF46A2320EE4700F76552 /* TitleCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TitleCell.h; sourceTree = "<group>"; };
+		24DDF46B2320EE4700F76552 /* TitleCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TitleCell.m; sourceTree = "<group>"; };
 		24DE5920231FCE3B00616A34 /* TabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
 		24DE5921231FCE3B00616A34 /* TabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
 		24DE5923231FCEAC00616A34 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
@@ -174,6 +195,10 @@
 		24B87E9A22FADFA0008AE95E /* video */ = {
 			isa = PBXGroup;
 			children = (
+				24DDF4662320C5F500F76552 /* Tool */,
+				24DDF45E2320C05400F76552 /* Elements */,
+				24DDF45A2320BF3600F76552 /* Category */,
+				24DDF4542320B51400F76552 /* Manager */,
 				24DE5932231FD05200616A34 /* Test */,
 				24DE5928231FCED000616A34 /* Editor */,
 				24DE5927231FCEC800616A34 /* Mine */,
@@ -188,6 +213,7 @@
 				24B87EA622FADFA3008AE95E /* LaunchScreen.storyboard */,
 				24B87EA922FADFA3008AE95E /* Info.plist */,
 				24B87EAA22FADFA3008AE95E /* main.m */,
+				24DDF4652320C2AC00F76552 /* PrefixHeader.pch */,
 			);
 			path = video;
 			sourceTree = "<group>";
@@ -208,6 +234,46 @@
 				24B87EC122FADFA4008AE95E /* Info.plist */,
 			);
 			path = videoUITests;
+			sourceTree = "<group>";
+		};
+		24DDF4542320B51400F76552 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				24DDF4552320B53900F76552 /* VideoManager.h */,
+				24DDF4562320B53900F76552 /* VideoManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		24DDF45A2320BF3600F76552 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				24DDF45B2320BF7100F76552 /* UIView+HPBorderLine.h */,
+				24DDF45C2320BF7100F76552 /* UIView+HPBorderLine.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		24DDF45E2320C05400F76552 /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				24DDF45F2320C0C300F76552 /* BackgroundElement.h */,
+				24DDF4602320C0C300F76552 /* BackgroundElement.m */,
+				24DDF4622320C10600F76552 /* BaseElement.h */,
+				24DDF4632320C10600F76552 /* BaseElement.m */,
+			);
+			path = Elements;
+			sourceTree = "<group>";
+		};
+		24DDF4662320C5F500F76552 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				24DDF4672320C63900F76552 /* EditorTool.h */,
+				24DDF4682320C63900F76552 /* EditorTool.m */,
+				24DDF46A2320EE4700F76552 /* TitleCell.h */,
+				24DDF46B2320EE4700F76552 /* TitleCell.m */,
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 		24DE591F231FCD1500616A34 /* Base */ = {
@@ -251,6 +317,7 @@
 		24DE5932231FD05200616A34 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				24DDF4582320B90800F76552 /* bgDef.png */,
 				2477ED3C23152F1D00E9E1DC /* element.png */,
 				24685A262303BE5500C910CD /* timg.jpeg */,
 				24C136B2230D3FDD00B21308 /* 456.MP4 */,
@@ -389,6 +456,7 @@
 				24685A272303BE5500C910CD /* timg.jpeg in Resources */,
 				24B87EA322FADFA0008AE95E /* Main.storyboard in Resources */,
 				24C05012231E140200CB3E55 /* 123.MP4 in Resources */,
+				24DDF4592320B90800F76552 /* bgDef.png in Resources */,
 				24C136B3230D3FDD00B21308 /* 456.MP4 in Resources */,
 				24C136B5230D409E00B21308 /* image.JPG in Resources */,
 			);
@@ -425,6 +493,7 @@
 				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_miss_etikate.png",
 				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_1.png",
 				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_2.png",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
@@ -435,6 +504,7 @@
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_miss_etikate.png",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_1.png",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_2.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -516,9 +586,15 @@
 			files = (
 				24DE5922231FCE3B00616A34 /* TabBarViewController.m in Sources */,
 				24DE592E231FCEF200616A34 /* MineViewController.m in Sources */,
+				24DDF4612320C0C300F76552 /* BackgroundElement.m in Sources */,
+				24DDF4692320C63900F76552 /* EditorTool.m in Sources */,
+				24DDF4572320B53900F76552 /* VideoManager.m in Sources */,
 				24DE5925231FCEAC00616A34 /* BaseViewController.m in Sources */,
+				24DDF4642320C10600F76552 /* BaseElement.m in Sources */,
 				24B87EA022FADFA0008AE95E /* ViewController.m in Sources */,
 				24B87EAB22FADFA3008AE95E /* main.m in Sources */,
+				24DDF45D2320BF7100F76552 /* UIView+HPBorderLine.m in Sources */,
+				24DDF46C2320EE4700F76552 /* TitleCell.m in Sources */,
 				24B87E9D22FADFA0008AE95E /* AppDelegate.m in Sources */,
 				24DE592B231FCEE600616A34 /* HomeViewController.m in Sources */,
 				24DE5931231FCF0000616A34 /* EditorViewController.m in Sources */,
@@ -617,6 +693,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = video/PrefixHeader.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -674,6 +752,8 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = video/PrefixHeader.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;

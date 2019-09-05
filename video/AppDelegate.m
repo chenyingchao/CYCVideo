@@ -30,14 +30,13 @@
     [tabBarVC addChildViewController:homeVC];
     
     EditorViewController *editorVC = [[EditorViewController alloc] init];
-    editorVC.tabBarItem.title = @"编辑";
-    [tabBarVC addChildViewController:editorVC];
+  
     
     MineViewController *mineVC = [[MineViewController alloc] init];
-    mineVC.tabBarItem.title = @"首页";
+    mineVC.tabBarItem.title = @"我的";
     [tabBarVC addChildViewController:mineVC];
     
-    self.window.rootViewController = tabBarVC;
+    self.window.rootViewController = editorVC;
     return YES;
 }
 

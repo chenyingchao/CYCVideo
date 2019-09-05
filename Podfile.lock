@@ -1,16 +1,30 @@
 PODS:
   - GPUImage (0.1.7)
+  - Masonry (1.1.0)
+  - SDWebImage (5.0.6):
+    - SDWebImage/Core (= 5.0.6)
+  - SDWebImage/Core (5.0.6)
+  - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
   - GPUImage (~> 0.1.7)
+  - Masonry (= 1.1.0)
+  - SDWebImage (~> 5.0.6)
+  - SVProgressHUD (~> 2.2.5)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - GPUImage
+    - Masonry
+    - SDWebImage
+    - SVProgressHUD
 
 SPEC CHECKSUMS:
   GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SDWebImage: 920f1a2ff1ca8296ad34f6e0510a1ef1d70ac965
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: 17459c1d13369c2d128a900cab7b1333a30c9ac0
+PODFILE CHECKSUM: 5a3e24253a4927ba562a8836ff55abcd8bf78bb9
 
 COCOAPODS: 1.5.3
